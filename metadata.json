@@ -1,0 +1,7 @@
+{
+  "name": "Cyberpunk RED - Netrunner Coming Soon",
+  "description": "Pre-launch landing page with Cyberpunk 2077 RED theme featuring an interactive matrix digital rain with real-time digital water ripple interference and responsive HUD controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --cyber-red: #ff003c;
+    --cyber-crimson: #8b1828;
+    --cyber-dark-crimson: #4a0d18;
+    --cyber-matte-bg: #111217;
+    --cyber-matte-surface: #171820;
+  }
+
+  body {
+    background-color: #111217;
+    color: #e5e5e5;
+    font-family: 'Chakra Petch', sans-serif;
+    overflow: hidden;
+  }
+}
+
+/* Matte Black Texture with subtle noise/vignette */
+.bg-matte-cyber {
+  background-color: #111217;
+  background-image: 
+    radial-gradient(circle at 50% 45%, #181922 0%, #0d0e12 85%);
+}
+
+/* Subtle Vignette & Frame */
+.cyber-vignette {
+  background: radial-gradient(circle at 50% 50%, transparent 60%, rgba(5, 5, 8, 0.75) 100%);
+  pointer-events: none;
+}
+
+/* Cyberbold Font Style from Image 3 */
+.font-cyberbold {
+  font-family: 'Chakra Petch', 'Orbitron', sans-serif;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+.font-japanese {
+  font-family: 'Noto Sans JP', 'Chakra Petch', sans-serif;
+}
+
+/* Glowing text effects */
+.glow-red {
+  text-shadow: 0 0 12px rgba(255, 0, 60, 0.65), 0 0 30px rgba(255, 0, 60, 0.35);
+}
+
+.glow-red-slight {
+  text-shadow: 0 0 8px rgba(255, 0, 60, 0.45);
+}
+
+.glow-red-strong {
+  filter: drop-shadow(0 0 14px rgba(255, 0, 60, 0.8)) drop-shadow(0 0 28px rgba(255, 0, 60, 0.45));
+}
+
+/* City silhouette base glow */
+.city-silhouette-glow {
+  filter: drop-shadow(0 -4px 20px rgba(255, 0, 60, 0.25));
+}
