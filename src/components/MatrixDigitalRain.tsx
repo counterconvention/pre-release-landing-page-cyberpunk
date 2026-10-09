@@ -365,7 +365,8 @@ export const MatrixDigitalRain: React.FC = () => {
       <canvas
         ref={canvasRef}
         className="block w-full h-full cursor-crosshair touch-none"
-        title="Matriz Digital Cyberpunk RED"
+        title="𝚌𝚘𝚛𝚛𝚞𝚙𝚝𝚎𝚍"
+        aria-label="𝚌𝚘𝚛𝚛𝚞𝚙𝚝𝚎𝚍"
       />
       {/* Matte black vignette for aesthetic depth */}
       <div className="absolute inset-0 cyber-vignette" />
